@@ -4,7 +4,7 @@ services:
     env: node
     plan: free
     packageManager: npm
-    installCommand: npm install
+    installCommand: npm install --include=dev
     buildCommand: npm run build
     startCommand: npm start
     envVars:
